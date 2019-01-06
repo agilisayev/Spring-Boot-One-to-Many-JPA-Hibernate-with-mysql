@@ -4,12 +4,11 @@ import com.example.demo.domain.Merchandise;
 import com.example.demo.servicies.MerchandiseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/api")
-public class MerchandiseController {
+@RequestMapping(value = "/merchandise")
+public class MerchandiseRestController {
 
     @Autowired
     MerchandiseService merchandiseService;

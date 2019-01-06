@@ -9,7 +9,6 @@ import java.util.List;
 @Service
 public class MerchandiseService {
 
-
     private final MerchandiseRepository merchandiseRepository;
     @Autowired
     public MerchandiseService(MerchandiseRepository merchandiseRepository) {

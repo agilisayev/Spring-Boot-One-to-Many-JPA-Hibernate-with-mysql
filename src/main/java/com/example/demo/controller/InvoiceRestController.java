@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/invoice")
-public class InvoiceController {
+public class InvoiceRestController {
 
    private final InvoiceService invoiceService;
 
     @Autowired
-    public InvoiceController(InvoiceService invoiceService) {
+    public InvoiceRestController(InvoiceService invoiceService) {
         this.invoiceService = invoiceService;
     }
 

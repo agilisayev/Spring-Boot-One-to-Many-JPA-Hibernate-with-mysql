@@ -1,16 +1,13 @@
 package com.example.demo.controller;
 
-import com.example.demo.domain.Merchandise;
-import com.example.demo.domain.Person;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api2")
-public class MainController {
+@RequestMapping("/main")
+public class MainRestController {
 
     @GetMapping("test/{say}/{qiymet}/aqil")
     public BigDecimal test1(
